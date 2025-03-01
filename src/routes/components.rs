@@ -3,7 +3,7 @@ use serde::{Deserialize, Serialize};
 // === Requests ===
 
 #[derive(Deserialize, Debug)]
-pub struct PingRequest {
+pub struct DebugRequest {
     pub message: String
 }
 
