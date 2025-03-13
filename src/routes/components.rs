@@ -22,3 +22,21 @@ impl PongResponse {
         }
     }
 }
+
+#[derive(Serialize)]
+pub struct SimpleIPResponse {
+    pub ip: String
+}
+
+#[derive(Serialize)]
+pub struct IdResponse {
+    pub ip: String,
+    pub city: String,
+    pub postal: String,
+    pub region: String,
+    pub country: String,
+    pub loc: String,
+    pub timezone: String,
+    pub hostname: String,
+    pub org: String,
+}
